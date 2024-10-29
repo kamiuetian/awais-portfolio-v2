@@ -78,9 +78,8 @@ export default function Blog({
         {blog.title}
       </Heading>
       <Flex fillWidth flex={1} direction="column">
-        {/* <Posts range={[1, 3]} locale={locale} />
-        <Posts range={[4]} columns="2" locale={locale} /> */}
-        <h3 className="text-center w-full">Coming soon</h3>
+        <Posts range={[1, 3]} locale={locale} />
+        <Posts range={[4]} columns="2" locale={locale} />
       </Flex>
       {newsletter.display && <Mailchimp newsletter={newsletter} />}
     </Flex>
