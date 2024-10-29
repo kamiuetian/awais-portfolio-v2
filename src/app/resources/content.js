@@ -163,81 +163,88 @@ const about = {
         name: "PIAIC",
         description: <>{"Certified Cloud Native Apps Developer."}</>,
       },
-    //   {
-    //     name: "Build the Future",
-    //     description: <>Studied online marketing and personal branding.</>,
-    //   },
+      //   {
+      //     name: "Build the Future",
+      //     description: <>Studied online marketing and personal branding.</>,
+      //   },
     ],
   },
   technical: {
     display: true,
     title: "Technical skills",
-    skills: [{
+    skills: [
+      {
         title: "Frontend",
         description: (
           <>
-            Crafting modern, responsive web apps using Next.js, React, Redux, and TailwindCSS for a seamless user experience.
+            Crafting modern, responsive web apps using Next.js, React, Redux,
+            and TailwindCSS for a seamless user experience.
           </>
         ),
         images: [],
       },
-      
+
       {
         title: "Backend",
         description: (
           <>
-            Designing scalable backend systems with Node.js, Express,Flask and FastAPI, ensuring efficient server-side functionality.
+            Designing scalable backend systems with Node.js, Express,Flask and
+            FastAPI, ensuring efficient server-side functionality.
           </>
         ),
         images: [],
       },
-      
+
       {
         title: "Generative AI",
         description: (
           <>
-            Leveraging AI models like GPT to build intelligent, context-aware applications that push the boundaries of innovation.
+            Leveraging AI models like GPT to build intelligent, context-aware
+            applications that push the boundaries of innovation.
           </>
         ),
         images: [],
       },
-      
+
       {
         title: "Database Architecture",
         description: (
           <>
-            Creating optimized database schemas with SQL and NoSQL technologies for efficient data storage and retrieval.
+            Creating optimized database schemas with SQL and NoSQL technologies
+            for efficient data storage and retrieval.
           </>
         ),
         images: [],
       },
-      
+
       {
         title: "DevOps",
         description: (
           <>
-            Streamlining development and deployment through containerized environments using Docker for scalable and reproducible systems.
+            Streamlining development and deployment through containerized
+            environments using Docker for scalable and reproducible systems.
           </>
         ),
         images: [],
       },
-      
+
       {
         title: "Cloud Infrastructure",
         description: (
           <>
-            Managing cloud infrastructure with AWS services like EC2, S3, and RDS to ensure secure, scalable, and reliable applications.
+            Managing cloud infrastructure with AWS services like EC2, S3, and
+            RDS to ensure secure, scalable, and reliable applications.
           </>
         ),
         images: [],
       },
-    ]      
+    ],
   },
 };
 
 const blog = {
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about myself and tech...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
